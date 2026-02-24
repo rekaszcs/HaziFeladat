@@ -3,7 +3,7 @@
 
 int main() {
     double r;
-    printf("Sugar: ");
+    printf("Adja meg a sugarat: ");
     scanf("%lf", &r);
 
     //                   vagy M_PI
@@ -11,8 +11,8 @@ int main() {
     double terulet = acos(-1) * r * r;
 
 
-    printf("Kor kerulete: %.2lf\n", kerulet);
-    printf("Kor terulete: %.2lf\n", terulet);
+    printf("A kor kerulete: %.2lf\n", kerulet);
+    printf("A kor terulete: %.2lf\n", terulet);
 
 
     return 0;
