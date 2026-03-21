@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void line(char c, int hossz) {
+    for (int i = 0; i < hossz; i++) {
+        putchar(c); 
+    }
+    printf("\n");
+}
+
+int main() {
+    printf("hello\n");
+    
+    line('-', 40);
+    
+    printf("world\n");
+    
+    return 0;
+}
