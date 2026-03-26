@@ -16,7 +16,7 @@ int main() {
     printf("%d\n", rfind_char("Abba", 'b'));
     printf("%d\n", rfind_char("Abba", 'a'));
     printf("%d\n", rfind_char("Abba", 'x'));
-    printf("%d\n", rfind_char("Alada", 'a'));
+    printf("%d\n", rfind_char("Aladar", 'a'));
     
     return 0;
 
